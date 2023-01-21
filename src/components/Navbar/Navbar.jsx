@@ -12,17 +12,19 @@ function Navbar() {
               <img className='w-50 rounded-pill' src={logo} alt="Site logo" />
             </Link>
 
-            <div class="col-7 d-flex align-items-center justify-content-between'">
-              <input class="form-control w-50" type="text" placeholder="Search?" />
-              <button class="text-light bg-black btn" type="button">&gt;</button>
+            <div className="col-7 d-flex align-items-center justify-content-between'">
+              <input className="form-control w-50" type="text" placeholder="Search?" />
+              <button className="text-light bg-black btn" type="button">&gt;</button>
             </div>
 
-            <div className='col-3 d-flex align-items-center justify-content-between'>
-              <Link className='text-light' to='/login'>
+            <div className="col-1"></div>
+
+            <div className='col-2 d-flex align-items-center justify-content-between'>
+              <Link className='text-light text-decoration-none' to='/login'>
                 Login
               </Link>
 
-              <Link className='text-light' to='/register'>
+              <Link className='text-light text-decoration-none' to='/register'>
                 Register
               </Link>
             </div>

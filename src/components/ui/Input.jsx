@@ -9,10 +9,10 @@ const Input = ({ label, type, state, setState }) => {
         value={state}
         onChange = {e => setState(e.target.value)}
         placeholder={label}
-        id="iputname"
+        // id="inputname"
       />
 
-      <label for="iputname">{label}</label>
+      <label htmlFor="iputname">{label}</label>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Input } from "../../ui";
+import { Input } from "../ui";
 
 function Register() {
   const [firstName, setFirstName] = useState("");
@@ -10,10 +10,11 @@ function Register() {
   const [password, setPassword] = useState("");
 
   return (
-    <form className="w-25 container mt-5 p-3 border">
+    <form className="w-25 container my-5 p-3 border">
       <h3>Sign Up</h3>
 
       <Input
+      
         label="First name"
         type="text"
         state={firstName}
